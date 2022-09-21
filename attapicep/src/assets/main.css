@@ -1,0 +1,54 @@
+@import "./base.css";
+
+.prin-att{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.btn-att {
+  height: 30px;
+  width: 70px;
+  text-align: center;
+color: rgb(#000);
+background-color: #ffffff;
+border-radius: 5px;
+
+}
+.inp-att {
+  display: grid;
+  margin-top: 17px;
+}
+input, select{
+  height: 30px;
+  padding-left: 10px;
+}
+strong {
+  text-decoration: underline solid #000;
+}
+span{
+  margin-left: 5px;
+}
+label{
+  font-size: 1.1em;
+}
+.end input{
+  display: flex;
+}
